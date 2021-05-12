@@ -229,7 +229,7 @@ jobs:
           cargo test --no-default-features --features ${{ matrix.features }} ${{ matrix.additional }}
 
   test-msrv:
-    name: Test: MSRV
+    name: Test MSRV
     runs-on: ubuntu-latest
 
     steps:
