@@ -260,3 +260,7 @@ jobs:
     done:
         name: Done
         needs: [clippy, docs, format, sync-readme, test, test-features, test-msrv]
+        runs-on: ubuntu-latest
+        steps:
+            - name: Done
+              run: echo Done
